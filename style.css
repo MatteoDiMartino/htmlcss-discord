@@ -1,0 +1,296 @@
+/*--------------------
+        RESET
+--------------------*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------
+      ALL DEBUG
+--------------------*/
+
+.debug .logo {
+    border: 2px dashed black;
+    background-color: #DAA520;
+}
+
+.debug .login {
+    border: 2px dashed black;
+    background-color: #DAA520;
+
+}
+
+.debug .nav-content {
+    border: 2px dashed black;
+    background-color: #DAA520;
+}
+
+.debug .pinkbox {
+    border: 2px dashed black;
+    background-color: #EE82EE;
+}
+
+
+.debug .col-2 {
+    border: 2px dashed black;
+    background-color: #1E90FF;
+}
+
+.debug .col-3 {
+    border: 2px dashed black;
+    background-color: #FFC0CB;
+}
+
+
+.debug .col-60 {
+    border: 2px dashed black;
+    background-color: #1E90FF;
+}
+
+.debug .col-40 {
+    border: 2px dashed black;
+    background-color: #FFC0CB;
+}
+
+.debug .box1 {
+    border: 2px dashed black;
+    background-color: #F08080;
+}
+
+.debug .boxgeneral {
+    border: 2px dashed white;
+    background-color: #20B2AA;
+}
+
+.debug .allboxes {
+    border: 2px dashed white;
+}
+
+.debug .lowpageelement {
+    border: 2px dashed black;
+    background-color: #FFB6C1;
+}
+
+.debug .greenbox {
+    border: 2px dashed black;
+    background-color: #228B22;
+}
+.debug .downhead {
+    border: 2px dashed black;
+    background-color: #00008B;
+    border-bottom: 3px solid #ADD8E6 ;
+}
+
+.debug .lowboxinside {
+    border: 2px dashed black;
+    background-color: #7FFFD4;
+}
+
+.debug .bghead {
+    background-color: #ADD8E6;
+}
+
+
+/*--------------------
+      HEAD
+--------------------*/
+
+/* .bghead {
+
+} */
+
+.container {
+    display: flex;
+    max-width: 1180px;
+    align-items: center;
+    min-height: 60px;
+    justify-content: space-around;
+}
+
+.logo {
+
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.nav-content {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding: 6px 8px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.main-nav li {
+    padding: 0 4px;
+}
+.main-nav li a {
+    text-decoration: none;
+}
+
+.login {
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.mrgelement {
+    padding: 6px 8px;
+}
+
+.pinkbox {
+    display: flex;
+    width: 700px;
+    height: 300px;
+
+}
+
+.downhead {
+
+    display: flex;
+    min-height: 100px;
+    padding: 40px;
+
+}
+
+/*--------------------
+      SECTION
+--------------------*/
+
+.container2 {
+    background-color: #ffffff;
+    display: flex;
+    min-height: 400px;
+    padding: 40px 0px;
+    max-width: 1180px;
+}
+
+.col-60 {
+    display: flex;
+    width: 60%;
+
+}
+.col-40 {
+    display: flex;
+    width: 40%;
+
+}
+
+.container3 {
+    display: flex;
+    min-height: 400px;
+    padding: 40px 0px;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/*--------------------
+      GENERAL
+--------------------*/
+
+.bgc3 {
+    background-color: #D3D3D3;;
+}
+
+
+.col-2 {
+    display: flex;
+    width: 40%;
+    
+}
+.col-3 {
+    display: flex;
+    width: 60%;
+    
+}
+
+.greenbox {
+    display: flex;
+    width: 100%;
+
+    max-width: 1180px;
+    min-height: 900px;
+}
+
+.lowwalpaperbox {
+    background-color: #D3D3D3;
+    display: flex;
+    padding: 50px;
+}
+
+.lowpage {
+    background-color: #23272A;
+    justify-content: center;
+    padding: 10px 0px 45px 0px;
+    border-bottom: 3px solid white;
+}
+
+.allboxes {
+    display: flex;
+    min-height: 600px;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.box1 {
+    display: flex;
+
+    width: 30%;
+    /* max-width: 1180px;
+    min-height: 900px; */
+}
+
+.boxgeneral {
+    display: flex;
+    width: 17.5%;
+
+}
+
+.endpage {
+    display: flex;
+    background-color: #23272A;
+    min-height: 100px;
+
+   
+}
+
+.lowboxinside {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    width: 100%;
+
+    margin-top: 30px;
+    min-height: 80px;
+
+}
+
+.lowpageelement {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 70px;
+    flex-wrap: wrap;
+}
+
+.boxelement {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    flex-wrap: wrap;
+}
